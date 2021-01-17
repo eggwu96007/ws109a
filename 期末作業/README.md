@@ -1,11 +1,4 @@
-# Blog -- Classic
-
-```
-PS D:\ccc\ccc109a\ws\deno\06-form\blog> deno run -A app.js
-Check file:///D:/ccc/ccc109a/ws/deno/06-form/blog/app.js
-Server run at http://127.0.0.1:8000
-post= { title: "ccc", body: "ccccc" }
-post= { title: "ddd", body: "ddddd" }
-post= { title: "eee", body: "eeeee" }
-...
-```
+# 聲明:所有照片皆原創
+# 程式碼參考陳鍾誠老師上課講義
+# 我是最後一堂課來請問老師問題的學生:)
+# 課程筆記只找的到前面幾周的...(下次一定會上課完抄完筆記就上傳GITHUB)
