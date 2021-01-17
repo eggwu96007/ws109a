@@ -99,9 +99,8 @@ async function signup(ctx) {
     var dbUsers = userQuery(`SELECT id, username, password, email FROM users WHERE username='${user.username}'`)
     if (dbUsers.length === 0) {
       sqlcmd("INSERT INTO users (username, password, email) VALUES (?, ?, ?)", [user.username, user.password, user.email]);
-      ctx.response.body = render.success()
+      ctx.response.body = render.loginUi({status:'帳號創立成功，請重新登入'})
     } else
-    console.log('ggggg')
     ctx.response.body = render.signupUi({status:'帳號已被創立'})
     console.log('ggggg')
       //ctx.response.body = render.fail()
